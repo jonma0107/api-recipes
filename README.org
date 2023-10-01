@@ -1,4 +1,4 @@
-** api-recipes
+** Api-Recipes
 Api de recetas. La cual se puede implementar para una aplicación web o móvil.
 
 ** GitHub Actions
