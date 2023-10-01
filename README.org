@@ -1,0 +1,8 @@
+** api-recipes
+Api de recetas. La cual se puede implementar para una aplicación web o móvil.
+
+** GitHub Actions
+
+Configurado el orden de las carpetas y el archivo =checks.yml= , podemos verificar en =Actions= :
+
+[[https://i.ibb.co/rcFsQYJ/actions.png]]
