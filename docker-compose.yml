@@ -18,9 +18,9 @@ services:
       - DB_USER=devuser
       - DB_PASS=changeme
     depends_on:
-      - db
+      - bd
 
-  db:
+  bd:
     image: postgres:16.0-alpine3.17
     volumes:
       - dev-db-data:/var/lib/postgresql/data
