@@ -18,3 +18,11 @@ Agregar aplicación de plantilla en el proyecto (En la Terminal):
 La forma de ejecutar las pruebas unitarias en nuestra aplicación: 
 
 =docker-compose run --rm app sh -c= "python manage.py test"
+
+** Flake8 Conventions 
+
+- El error =W291 trailing whitespace= indica que hay espacios en blanco al final de una línea en tu código. Para solucionarlo, debes eliminar los espacios en blanco adicionales al final de la línea.
+
+- El error =W292 no newline at end of file= en Flake8 indica que no hay una nueva línea al final del archivo. Esto es una convención en muchos sistemas operativos y editores de texto, ya que la presencia de una línea en blanco al final del archivo ayuda a diferenciar entre archivos y facilita la legibilidad. Para corregir este error, simplemente agrega una nueva línea en blanco al final del archivo. Cuando se dice "agrega una nueva línea en blanco al final del archivo", se refiere a presionar la tecla "Enter" al final del archivo, para asegurarse de que haya una línea adicional al final que esté en blanco. Esto se hace simplemente presionando la tecla "Enter" una vez después de la última línea de código en el archivo. Esto no es un espacio en blanco al final de una línea de código, sino un salto de línea que marca el final del archivo.
+
+ 
