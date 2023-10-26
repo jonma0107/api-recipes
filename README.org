@@ -12,3 +12,9 @@ Configurado el orden de las carpetas y el archivo =checks.yml= , podemos verific
 Agregar aplicación de plantilla en el proyecto (En la Terminal): 
 
 =docker-compose run --rm app sh -c= "python manage.py startapp core"
+
+** Test 
+
+La forma de ejecutar las pruebas unitarias en nuestra aplicación: 
+
+=docker-compose run --rm app sh -c= "python manage.py test"
