@@ -1,0 +1,55 @@
+{
+  "version": "2.0.0",    
+    "tasks": [
+      
+    {
+      "label": "compose_up",
+      "type": "shell",
+      "command": "docker-compose up -d",
+      "problemMatcher": []
+    },
+    {
+      "label": "compose_down",
+      "type": "shell",
+      "command": "docker-compose down",
+      "problemMatcher": []
+    },
+    {
+      "label": "compose_build",
+      "type": "shell",
+      "command": "docker-compose build",
+      "problemMatcher": []
+    },
+    {
+      "label": "backend_shell",
+      "type": "shell",
+      "command": "docker exec -it meditrack_meditrack-backend_1 sh",
+      "problemMatcher": []
+    },
+    {
+      "label": "backend_logs",
+      "type": "shell",
+      "command": "docker logs --tail 1000 -f meditrack_meditrack-backend_1",
+      "problemMatcher": []
+    },
+    {
+      "label": "backend_bash",
+      "type": "shell",
+      "command": "docker exec -it meditrack_meditrack-backend_1 bash",
+      "problemMatcher": []
+    },
+    {
+      "label": "startproject",
+      "type": "shell",
+      "command": "django-admin startproject project .",
+      "problemMatcher": []
+    },
+    {
+      "label": "startapp",
+      "type": "shell",
+      "command": "python manage.py startapp application",
+      "problemMatcher": []
+    }
+    
+  ]
+}
